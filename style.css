@@ -33,6 +33,7 @@ body {
   height: 50vh;
   border-color: #fff;
   background: transparent;
+  color: #fff;
 }
 textarea::placeholder {
   color: #ffff;
@@ -44,7 +45,7 @@ textarea::placeholder {
   left: 50%;
   transform: translateX(-50%);
   margin-top: 2%;
-  
+  display: flex;
 }
 button {
   background-color: blue;
@@ -53,6 +54,22 @@ button {
   padding: 10px;
   cursor: pointer;
   border-color: #fff;
-  border-radius: 5px;
+  border-radius: 35px;
   /* transition: all 0.3s ease; */
+}
+.select {
+  flex: 1;
+  color: #fff;
+  height: 50px;
+  padding: 0, 20px;
+  outline: 0;
+  border: 0;
+  width: 600px;
+  border-radius: 35px;
+  appearance: none;
+  /* background-image: url(Image/dropdwon.jpg);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position-x: calc(100% -20px);
+  background-position-y: 20px; */
 }
