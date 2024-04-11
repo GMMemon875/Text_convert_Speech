@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+.text {
+  text-align: center;
+  margin-top: 5%;
+}
+.text p {
+  font-size: 40px;
+}
+#spn {
+  color: rgb(233, 33, 33);
+  /* text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 3px; */
+  text-decoration: underline wavy white 5px;
+}
+
+.input_text textarea {
+  width: 50%;
+  height: 50px;
+  font-size: 28px;
+  margin-left: 25%;
+  margin-top: 2%;
+  border-radius: 10px;
+  height: 50vh;
+  border-color: #fff;
+  background: transparent;
+}
+textarea::placeholder {
+  color: #ffff;
+  padding: 10px;
+}
+
+.dropdwon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2%;
+  
+}
+button {
+  background-color: blue;
+  color: #fff;
+
+  padding: 10px;
+  cursor: pointer;
+  border-color: #fff;
+  border-radius: 5px;
+  /* transition: all 0.3s ease; */
+}
