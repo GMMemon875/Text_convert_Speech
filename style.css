@@ -57,7 +57,7 @@ button {
   border-radius: 35px;
   /* transition: all 0.3s ease; */
 }
-.select {
+select {
   flex: 1;
   color: #fff;
   height: 50px;
