@@ -17,9 +17,9 @@ body {
 }
 #spn {
   color: rgb(233, 33, 33);
-  /* text-decoration: underline;
+  text-decoration: underline;
   text-decoration-color: white;
-  text-decoration-thickness: 3px; */
+  text-decoration-thickness: 3px;
   text-decoration: underline wavy white 5px;
 }
 
@@ -50,7 +50,6 @@ textarea::placeholder {
 button {
   background-color: blue;
   color: #fff;
-
   padding: 10px;
   cursor: pointer;
   border-color: #fff;
@@ -59,17 +58,31 @@ button {
 }
 select {
   flex: 1;
-  color: #fff;
+  color: black;
   height: 50px;
-  padding: 0, 20px;
+  padding: 30px, 20px;
   outline: 0;
   border: 0;
   width: 600px;
   border-radius: 35px;
   appearance: none;
-  /* background-image: url(Image/dropdwon.jpg);
-  background-repeat: no-repeat;
-  background-size: 15px;
-  background-position-x: calc(100% -20px);
-  background-position-y: 20px; */
+}
+@media screen and (max-width: 600px) {
+  .text p {
+    font-size: 60px;
+  }
+  .input_text textarea {
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 5%;
+  }
+  .dropdwon {
+    position: relative;
+    flex-wrap: wrap;
+  }
+  button {
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 7%;
+  }
 }
